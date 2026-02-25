@@ -1,0 +1,25 @@
+:root {
+  --cor-principal: #0f172a;
+  --cor-destaque: #22c55e;
+  --texto: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--cor-principal);
+  color: var(--texto);
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background: var(--cor-destaque);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+}
