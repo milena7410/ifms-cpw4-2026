@@ -1,20 +1,24 @@
 # ifms-cpw4-2026
-Desafio — Evoluir a Interface
 
+# rodar projeto
+npm create vite@latest app-web4
+cd app-web4
+npm install
+npm run dev
+
+# Desafio — Evoluir a Interface
 Implemente:
-- seção de funcionalidades
-- pelo menos 3 funcionalidades listadas
-- novo componente Card
-- estilizar layout (centralizar conteúdo)
-- adicionar botão secundário
+- lista de funcionalidades
+- pelo menos 3 funcionalidades 
+- adicionar botão 
 - alterar paleta de cores
 - organizar visualmente a página
 
 Extras:
-* criar componente Footer
-* layout responsivo
-* animação simples
-* justificar estrutura
+* criar função que gera card
+* criar tema escuro
+* organizar código em funções
+* separar responsabilidades
 
 Documentar:
 1. O que foi implementado
