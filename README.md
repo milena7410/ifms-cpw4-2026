@@ -1,10 +1,10 @@
 # ifms-cpw4-2026
 
 # rodar projeto
-npm create vite@latest app-web4
-cd app-web4
-npm install
-npm run dev
+- npm create vite@latest app-web4
+- cd app-web4
+- npm install
+- npm run dev
 
 # Desafio — Evoluir a Interface
 Implemente:
