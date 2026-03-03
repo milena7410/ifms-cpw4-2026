@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  max-width: none;
+  margin: 0;
+  padding: 40px;
+}
+
+/* ===== TEMA CLARO ===== */
+.claro {
+  background: #fcfcf8;
+  color: #0f172a;
+
+  .container {
+    background: #fcfcf8;
+  }
+
+  .card {
+    background: white;
+    border: 1px solid #ddd;
+  }
+  .input-tarefa {
+    background: white;
+    color: rgb(16, 15, 15);
+    border: 1px solid rgb(53, 51, 51);
+  }
+}
+
+/* ===== TEMA ESCURO ===== */
+.escuro {
+  background: #0f172a;
+  color: #e5e7eb;
+
+  .container {
+    background: #0f172a;
+  }
+
+  .card {
+    background: #1f2937;
+    border: 1px solid #374151;
+  }
+
+  .input-tarefa {
+    background: #1f2937;
+    color: white;
+    border: 1px solid #374151;
+  }
+}
+
+/* componentes */
+.area-input {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.input-tarefa {
+  padding: 10px;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.botao-tema {
+  margin: 20px 0;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.botao-adicionar {
+  background: #2553eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.botao-remover {
+  background: #a10606;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin-top: 12px;
+  border-radius: 8px;
+}
